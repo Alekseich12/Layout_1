@@ -43,7 +43,6 @@ hr {
 }
 
 
-
 /* Intro */
 .intro {
     display: flex;
@@ -54,7 +53,7 @@ hr {
     min-height: 820px;
     position: relative;
 
-    background: url("../images/intro.jpg") center no-repeat;
+    background: url("../images/first-bg.jpg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -109,7 +108,7 @@ hr {
 .header.fixed {
     padding: 10px 0;
 
-    background-color: #eb8b8d;
+    background-color: #6e00d8;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 
     position: fixed;
@@ -287,7 +286,6 @@ hr {
 }
 
 
-
 /* Slider */
 .slider {
     width: 100%;
@@ -349,7 +347,7 @@ hr {
     margin-bottom: 40px;
     padding-bottom: 0;
 
-    background: url("../images/devices-bg.jpg") center no-repeat;
+    background: url("../images/third-bg.jpg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -359,7 +357,7 @@ hr {
 }
 
 .section--clients {
-    background: #f5f5f5 url("../images/clients-bg.jpg") center no-repeat;
+    background: #f5f5f5 url("../images/second-bg.jpg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -380,13 +378,13 @@ hr {
 .section__suptitle {
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
-    color: #333;
+    color: #fff;
 }
 
 .section__title {
     font-size: 30px;
     font-weight: 700;
-    color: #333;
+    color: #6e00d8;
     text-transform: uppercase;
 }
 
@@ -404,7 +402,6 @@ hr {
     font-size: 15px;
     color: #999;
 }
-
 
 
 /* Card */
@@ -489,7 +486,6 @@ hr {
     font-weight: 300;
     color: #999;
 }
-
 
 
 /* Statistics */
@@ -678,7 +674,6 @@ hr {
     color: #333;
     text-transform: uppercase;
 }
-
 
 
 /* Reviews */
@@ -890,12 +885,12 @@ hr {
 }
 
 
-
 /* Clients */
 .clients {
     display: flex;
     flex-wrap: wrap;
     margin-top: 70px;
+    color: #ffffff;
 }
 
 .clients__item {
@@ -921,20 +916,17 @@ hr {
     margin-bottom: 5px;
 
     font-size: 14px;
-    color: #333;
     text-transform: uppercase;
 }
 
 .clients__prof {
     font-size: 15px;
-    color: #333;
     font-style: italic;
     font-weight: 300;
 }
 
 .clients__text {
     font-size: 15px;
-    color: #999;
 }
 
 .clients__text:before {
@@ -1075,7 +1067,6 @@ hr {
 }
 
 
-
 /* Footer */
 .footer {
     padding-top: 65px;
@@ -1164,7 +1155,6 @@ hr {
     color: #333;
     text-transform: uppercase;
 }
-
 
 
 /* Blogs */
@@ -1302,8 +1292,6 @@ hr {
 }
 
 
-
-
 @media (max-width: 1230px) {
 
     /* Intro */
@@ -1334,7 +1322,7 @@ hr {
 
     /* Stat */
     .stat {
-       justify-content: center;
+        justify-content: center;
     }
 
     .stat__item {
@@ -1433,7 +1421,7 @@ hr {
         top: 100%;
         left: 0;
 
-        background-color: #eb8b8d;
+        background-color: #6e00d8;
     }
 
     .nav.active {
